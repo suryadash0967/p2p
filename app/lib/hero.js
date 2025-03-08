@@ -28,19 +28,28 @@ export default function Hero() {
                 Your Keys, Your Crypto!
               </p>
             </div>
+
             <div className="lg:mt-[40px] mt-[24px] flex flex-col items-center lg:items-start">
-              <a href="https://app.p2p.me" target="_blank" onClick={() => logAmplitudeEvent('LAUNCH_APP')}>
+              <a
+                href="https://app.p2p.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => logAmplitudeEvent("LAUNCH_APP")}
+              >
                 <div className="fade-in bg-gradient-to-r from-blue-500 to-teal-500 lg:h-[62px] h-[44px] lg:w-[234px] w-[164px] flex justify-center items-center lg:rounded-[12px] rounded-[8px] hover:cursor-pointer">
                   <p className="text-black">Launch App</p>
-                  <img src="/arrow-right.svg" className="h-[25px] w-[30px] ml-[12px]" />
+                  <Image
+                    src="/arrow-right.svg"
+                    alt="Arrow Right"
+                    width={30}
+                    height={25}
+                    className="ml-[12px]"
+                  />
                 </div>
               </a>
 
-
               <div className="flex row items-center lg:mt-[24px] mt-[16px]">
-                <div className="w-[16px] h-[18px]">
-                  <Image src="/reclaim.svg" alt="Reclaim Icon" width={16} height={18} />
-                </div>
+                <Image src="/reclaim.svg" alt="Reclaim Icon" width={16} height={18} />
                 <p className="text-white ml-2">
                   Zk proofs powered by{" "}
                   <a
@@ -56,6 +65,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
+
           <div>
             <Image
               src="/app_in_mobile_4x.webp"

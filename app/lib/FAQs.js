@@ -93,4 +93,5 @@ const faqs = [
   },
 ];
 
+
 export default FAQ;
