@@ -29,8 +29,7 @@ export default function Card() {
             </div>
             <p className="text-white text-[20px] mb-[20px]">Fully On-chain</p>
             <p className="text-white text-[14px]">
-              P2P.me is built with smart contracts that are governed by the P2P.me DAO.
-              We are the world's first decentralized alternative to centralized P2P exchanges.
+              P2P.me is built with smart contracts that are governed by the P2P.me DAO. We are the world's first decentralized alternative to centralized P2P exchanges.
             </p>
           </div>
         </div>
@@ -45,8 +44,7 @@ export default function Card() {
             </div>
             <p className="text-white text-[20px] mb-[20px]">Secure & Reliable</p>
             <p className="text-white text-[14px]">
-              To combat P2P fraud, our on-chain reputation system sets transaction limits based on user trust, powered by zk-KYC.
-              It analyzes social graphs and transaction histories to block fraudsters and protect users' bank accounts.
+              To combat P2P fraud, our on-chain reputation system sets transaction limits based on user trust, powered by zk-KYC. It analyzes social graphs and transaction histories to block fraudsters and protect users' bank accounts.
             </p>
           </div>
         </div>
