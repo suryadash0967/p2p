@@ -1,26 +1,69 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.bg-card-border-gradient {
+  background-image: linear-gradient(220deg, #000000, #62C1EF91);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.bg-card-gradient {
+  background-image: linear-gradient(150deg, #12121200, #4A9AE329);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(98 193 239 / var(--tw-text-opacity, 1));
 }
+
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(98 193 239 / var(--tw-border-opacity, 1));
+}
+
+.border-primary\/50 {
+  border-color: rgb(98 193 239 / 0.5);
+}
+
+.bg-faq-card-gradient {
+  background-image: linear-gradient(340deg, #4A9AE33D 0%, #00000000 74%, #62C1EF1C 100%);
+}
+
+.footer_container {
+  width: 100%;
+  box-shadow: #62C1EF1A 205px 205px 205px 205px, #62C1EF1A 205px 205px 205px 205px;
+  backdrop-filter: blur(10px);
+}
+
+.bg-primary\/50 {
+  background-color: rgb(98 193 239 / 0.5);
+}
+
+.bg-button-glass-gradient {
+  background-image: linear-gradient(180deg, #0EB0FF -300%, #4A9AE308 100%);
+  display: flex;
+}
+
+.why-text {
+  background: linear-gradient(to left, #62C1EF, #4A9AE3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 1024px) {
+    .lg\:bg-card-two-gradient {
+        background-image: linear-gradient(340deg, #4A9AE33D 0%, #00000000 0%, #62C1EF1C 100%);
+    }
+}
+
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0D0D0D;
+  height: 100svh;
+  background-image: url(../public/ellipse_shadow.svg);
+  background-repeat: no-repeat;
+}
+
+.nav_container {
+  width: 100%;
+  box-shadow: #62C1EF1A 0px 20px 205px -5px, #62C1EF1A 0px 10px 10px -5px;
+  backdrop-filter: blur(10px);
 }
