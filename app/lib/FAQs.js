@@ -10,7 +10,7 @@ const FAQ = () => {
 
   return (
     <div className="lg:mx-[96px] mx-[32px] mt-[50px] lg:mt-[177px] pb-[140px]">
-      <p className="text-white lg:text-[40px] text-[22px] text-center">FAQ's</p>
+      <p className="text-white lg:text-[40px] text-[22px] text-center">FAQs</p>
       <div className="mt-[44px] lg:mt-[89px]">
         {faqs.map((faq, index) => (
           <div key={index}>
